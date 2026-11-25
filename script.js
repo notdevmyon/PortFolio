@@ -1,15 +1,14 @@
 "use strict";
 
 const CONTACT = {
-    discord: "notdev_mayon",
-    email: "Notdevmayon@gmail.com",
-    github: "@notdevmayon"
+    discord: "",
+    email: "",
+    github: ""
 };
 
-const LANYARD_USER_ID = "1270404468613189654";
+const LANYARD_USER_ID = "";
 
 const LANYARD_API_URL =
-    `https://api.notdevabhinav.workers.dev/v1/users/${LANYARD_USER_ID}`;
 
 const body = document.body;
 
@@ -979,59 +978,8 @@ const terminalCommands = {
             "clear     — clear terminal output"
         ]
     },
-
-    him: {
-        description: "ahm....",
-         run: () => {
-        const target =
-            document.querySelector("#contact");
-
-        if (target) {
-            target.scrollIntoView({
-                behavior: prefersReducedMotion
-                    ? "auto"
-                    : "smooth",
-                block: "start"
-            });
-        }
-
-        return [
-            "Absolute perfection",
-            "",
-            "ahm..dont dare to leak this",
-            "he is perfect man...just perfect",
-            "like no words to describe him",
-            "he is the best man i have ever seen",
-            "more addicting than anythinggg...",
-                ];
-    }
 },
-
-    woof: {
-        description:
-           "ahm.",
-        run: () => {
-        const target =
-            document.querySelector("#contact");
-
-        if (target) {
-            target.scrollIntoView({
-                behavior: prefersReducedMotion
-                    ? "auto"
-                    : "smooth",
-                block: "start"
-            });
-        }
-
-        return [
-            "awww..cutie",
-            "",
-            "you r a good boy",
-            "I am happy with youuu",
-        ];
-    }
-},
-
+ 
     about: {
         description:
             "Display information about Mayon.",
